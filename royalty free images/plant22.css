@@ -1,0 +1,134 @@
+header {text-decoration: none;
+		background-image: url(plantHeader.jpg);
+		background-color: #40407A;
+		background-size: 100%, 100%;
+		color: #FFFFFF; 
+		font-size: 90%;
+		margin-top: 50px;
+		min-height: 200px;
+		}
+
+body { background-color: #000000;
+       color: #000000; 
+	   font-family: Verdana, Arial, Sans-serif;}
+	   
+main {padding-left: 2em;
+	padding-right: 2em;
+	display: block;
+	padding-top: 1em;
+	}
+	   
+h1 {
+	padding-top: 50px;
+	padding-left: 2em;
+}
+
+nav {background-color:#FFFFFF;
+	padding-top: 0.5em;
+	width: 100%;
+	margin: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	text-align: right;
+	padding-right: 0px;
+	z-index: 9999;}
+	
+nav a {text-decoration: none;
+		display: block;}
+	
+nav ul{
+    display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin: 0;
+	font-size: 1.2em;
+}
+	
+#nav li {width: 40%;
+		padding-bottom: 0;
+		padding-top: 0;
+		padding-left: 1em;
+		padding-right: 1em;
+		display: inline;
+}
+	
+footer {background-color: #FFFFFF;
+		color: #000000;
+		font-size: .60em;
+		font-style: italic;
+		text-align: center;
+		padding: 1em;}
+		
+.studio {font-style: italic;
+		}
+
+#wrapper { background-color: #F5F5F5;
+			padding: 2em;
+			}
+			
+@media only screen and (min-width: 600px) {
+	nav ul{display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	list-style-type: none;
+	margin: 0;
+	font-size: 1.2em;
+}
+#nav li {width: 7em;
+		padding-bottom: 0;
+		padding-top: 0;
+		padding-left: 1em;
+		padding-right: 1em;
+		display: inline;
+}
+
+form {width: 60%;
+	gap: 1em;
+	grid-template-columns: 12em 1fr;
+	
+}
+
+submit {grid-column: 2;
+		width: 9em;
+}
+
+label {text-align: right;
+}
+
+section {padding-left: 2em;
+		padding-right: 2em;
+}
+
+flow{display: flex;
+	flex-direction: row;
+}
+#mobile {display:none;
+}
+#desktop {display:inline;
+}
+}
+@media only screen and (min-width: 1024px) {
+	header {text-decoration: none;
+		background-size: 100%, 100%;
+		font-size: 120%;
+		margin-top: 50px;
+		min-height: 200px;
+		}
+.home {height: 50vh;
+		padding-top: 5em;
+		padding-left: 8em;
+	
+}
+.content {height: 30vh;
+		padding-top: 1em;
+		padding-left: 8em;
+	
+}
+#wrapper {
+margin: auto;
+width: 80%;
+			padding: 2em;
+			}
+}

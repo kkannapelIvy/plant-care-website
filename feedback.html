@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Collection of Plant Info :: Feedback</title>
+<link href="plant.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta width="device-width, initial-scale=1.0">
+<meta name="description" content="Collection of Plant info, a website that 
+teaches people across all ages how to plant and care for flowers and vegetables.">
+</head>
+<body>
+<div id="wrapper">
+<header><h1><a href="index.html">Collection of Plant Info</a></h1></header>
+
+<nav>
+<ul>
+	<li><a href="index.html">Home </a></li>
+	<li><a href="aboutUs.html">About Us </a></li>
+	<li><a href="flowerCare.html">Flower Care </a></li>
+	<li><a href="vegetableCare.html">Vegetable Care </a></li>
+	<li><a href="basicPlantCare.html">Basic Plant Care </a></li>
+	<li><a href="feedback.html">Feedback </a></li>
+</ul>	
+</nav>
+
+<main>
+<h2>Feedback</h2>
+<p>Fill out the form below to provide feedback to our site. All information is required.</p>
+
+<form method="post"
+action="https://webdevbasics.net/scripts/yoga.php">
+
+<label for="email">E-mail:</label>
+<input type="text" name="myEmail" id="email">
+
+<label for="refer">How did you find this site?</label>
+<input type="text" name="myRefer" id="refer" list="refers">
+<datalist id="refers">
+	<option value="Google" label="Google">
+	<option value="Bing" label="Bing">
+	<option value="Facebook" label="Facebook">
+	<option value="Twitter" label="Twitter">
+	<option value="Friend Recommendation" label="Friend Recommendation">
+</datalist>
+
+<label for="comment">Comments and Feedback:</label>
+<textarea name="myComments" id="comment" cols="20" rows="2" required></textarea>
+
+<input type="submit" value="Send Now" id="mySubmit">
+</form>
+
+</main>
+<footer>
+	Copyright &copy; 2021 Plant Care Org 
+	<br><a href="mailto:kkannapel@ivytech.edu">kkannapel@ivytech.edu</a>
+</footer>
+</div>
+</body>
+</html>
